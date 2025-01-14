@@ -1,6 +1,12 @@
 [package]
-name = "doc-tracker"
+name = "abd"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+ractor = "0.14"
+tokio = { version = "1", features = ["full"] }
+
+[dev-dependencies]
+ractor = "0.14"
+tokio = { version = "1.41.1", features = ["full"] }
